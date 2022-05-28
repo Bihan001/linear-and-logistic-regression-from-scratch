@@ -1,2 +1,2 @@
-# linear-and-logistic-regression-from-scratch
+# linear-regression-from-scratch
 Created with CodeSandbox
