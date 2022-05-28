@@ -1,7 +1,7 @@
 export default function linearRegression(
   trainData,
   epochs = 300,
-  learningRate = 0.01
+  learningRate = 0.001
 ) {
   const gradientDescent = (currentM, currentB, trainData) => {
     const n = trainData.length;

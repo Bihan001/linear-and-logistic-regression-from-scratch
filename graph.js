@@ -1,8 +1,11 @@
 import Chart from "chart.js/auto";
 
-const canvas = document.getElementById("graph_plot");
-
-export default function createGraph(trainData, testData, predictedLineData) {
+export default function createGraph(
+  trainData,
+  testData,
+  predictedLineData,
+  canvas
+) {
   const trainingScatterConfig = {
     type: "scatter",
     label: "Training Data",
